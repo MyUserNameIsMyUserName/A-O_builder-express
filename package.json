@@ -1,0 +1,36 @@
+{
+  "name": "A-O_builder-express",
+  "version": "1.0.0",
+  "description": "A^O Application Builder using node with express. SPA builder in other words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "_install": "bash ao_builder/install.sh",
+    "_build": "bash ao_builder/build.sh",
+    "_dev_build": "bash ao_builder/build.sh dev",
+    "_dev": "start node front.srv.js && nodemon --exec npm run _dev_build --ignore ./PUBLIC",
+    "_lt": "npm run ao && start lt --port 8080",
+    "a^o": "npm run _build && start node front.srv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyUserNameIsMyUserName/A-O_builder-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyUserNameIsMyUserName/A-O_builder-express/issues"
+  },
+  "homepage": "https://github.com/MyUserNameIsMyUserName/A-O_builder-express#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-remove-comments": "^2.0.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "webpack": "^5.16.0"
+  }
+}
