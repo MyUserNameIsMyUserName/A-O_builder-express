@@ -3,12 +3,12 @@
 #║ ♠ File Name: install.sh                                                       ║
 #║ ↔ Location: <: public_root :>/ Dev / sh / install.sh                          ║
 #║ Σ Description:                                                                ║
-#║     → In case this lives more than few days, better have something prepared   ║
-#╟       than few days, better have something prepared have as   ╔═══════════════╣
-#║       than few days, better have something prepared.          ║ √ 23.01.2021. ║
+#║     → Well this is basically easy way to sort out installation of global      ║
+#╟       node dependencies, while alse alloing us to set more    ╔═══════════════╣
+#║       then just dependencies...free to play with bash.        ║ √ 18.03.2021. ║
 #╚═══════════════════════════════════════════════════════════════╩═══════════════╝
 
-read -p "[ SOF::A^O_DOCS_INSTALL_Process >> Press {enter} to START...]"
+echo "[> SOF::A^O__INSTALL_Process <]"
 
 echo "Starting NPM instal"
 npm install
@@ -30,22 +30,11 @@ echo "Starting babel-minify install"
 npm install -g babel-minify
 echo "Done NPM babel-minify install."
 
-echo "Starting node-compress-images-cli install"
-npm install -g image-2-min
-npm install --global imagemin-cli
-echo "Done NPM node-compress-images-cli install."
-
-echo "Starting pngquant-bin install"
-npm install -g imagemin-pngquant
-npm install -g pngquant-bin
-npm install -g gifsicle
-echo "Done NPM pngquant-bin install."
-
 echo "Starting localtunnel install"
 npm install -g localtunnel
 echo "Done NPM localtunnel install"
 
-read -p "[ EOF::A^O_DOCS_INSTALL_Process >> Press {enter} to exit...]"
+read -p "[> EOF::A^O__INSTALL_Process >> Press {enter} to exit...<]"
 
 
 #▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

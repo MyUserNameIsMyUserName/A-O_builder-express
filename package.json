@@ -8,9 +8,9 @@
     "_install": "bash ao_builder/install.sh",
     "_build": "bash ao_builder/build.sh",
     "_dev_build": "bash ao_builder/build.sh dev",
-    "_dev": "start node front.srv.js && nodemon --exec npm run _dev_build --ignore ./PUBLIC",
+    "_dev": "start node ao_express.js && nodemon --exec npm run _dev_build --ignore ./PUBLIC",
     "_lt": "npm run ao && start lt --port 8080",
-    "a^o": "npm run _build && start node front.srv.js"
+    "a^o": "npm run _build && start node ao_express.js"
   },
   "repository": {
     "type": "git",

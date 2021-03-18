@@ -8,7 +8,7 @@
 //╚═══════════════════════════════════════════════════════════════╩═══════════════╝
 
 window.onload = function () {
-    console.log('window.onload = function ()');
+    console.log('YEAA HAVING FUN! :D')
 };
 
 
