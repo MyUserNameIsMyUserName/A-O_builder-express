@@ -15,8 +15,8 @@ if [ "$1" == "" ] || [ $# -gt 1 ]; then
     echo 
     echo "++{ Use [ctr+c] to stop at any time }++"
     echo "-------------------------------------------------"
-    echo "|    PRESS [> ENTER <] to Start Building.       |"
-    read -p "-------------------------------------------------"
+    #echo "|    PRESS [> ENTER <] to Start Building.       |"
+    #read -p "-------------------------------------------------"
     
     echo "Trying to remove PUBLIC folders contents [if there is any]"
     rm -r PUBLIC/*
@@ -66,7 +66,8 @@ if [ "$1" == "" ] || [ $# -gt 1 ]; then
     echo "COMPRESSING >> ALL images from SOURCE dir into PUBLIC dir."
     imagemin SOURCE/static/assets/img/* --plugin.pngquant.quality:[0.9, 1] --out-dir=PUBLIC/assets/img
     
-    read -p "To EXIT A^O_DOCSBuild press: [enter]"
+    sleep 2
+    #read -p "To EXIT A^O_DOCSBuild press: [enter]"
 
 else 
     echo "Starting A^O_DOCS DEVELOPMENT Build."
@@ -100,7 +101,7 @@ else
     #read -p "To EXIT A^O_DOCSBuild press: [enter]"
 
     sleep 2
-    exit
+    #exit
 
 fi
 
