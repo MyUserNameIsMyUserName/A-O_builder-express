@@ -34,6 +34,17 @@ echo "Starting localtunnel install"
 npm install -g localtunnel
 echo "Done NPM localtunnel install"
 
+echo "Starting node-compress-images-cli install"
+npm install -g image-2-min
+npm install --global imagemin-cli
+echo "Done NPM node-compress-images-cli install."
+
+echo "Starting pngquant-bin install"
+npm install -g imagemin-pngquant
+npm install -g pngquant-bin
+npm install -g gifsicle
+echo "Done NPM pngquant-bin install."
+
 read -p "[> EOF::A^O__INSTALL_Process >> Press {enter} to exit...<]"
 
 
