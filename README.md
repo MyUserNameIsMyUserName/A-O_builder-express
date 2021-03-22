@@ -1,5 +1,5 @@
 # A-O_builder-express  
-[![ShiftLeft](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/shiftleft.yml/badge.svg)](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/shiftleft.yml)[![Codacy Security Scan](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/codacy-analysis.yml)  
+[![ShiftLeft](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/shiftleft.yml/badge.svg)](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/shiftleft.yml) [![Codacy Security Scan](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/MyUserNameIsMyUserName/A-O_builder-express/actions/workflows/codacy-analysis.yml)  
 A^O Application Builder using node with express. SPA builder in other words.  
 
 
